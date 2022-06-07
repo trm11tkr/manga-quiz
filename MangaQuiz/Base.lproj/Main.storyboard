@@ -137,6 +137,7 @@
                         <outlet property="answerButton4" destination="vc4-13-WhO" id="v0l-ab-Aw7"/>
                         <outlet property="quizNumberLabel" destination="JVt-0d-Ll4" id="GwG-4B-jWC"/>
                         <outlet property="quizTextView" destination="Ve0-Oj-IZF" id="wNV-EG-7p2"/>
+                        <segue destination="ZV0-dF-zIl" kind="presentation" identifier="toScoreVC" id="gec-3J-XxO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jwz-p0-WRt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -146,7 +147,7 @@
         <!--Score View Controller-->
         <scene sceneID="C9B-VK-bea">
             <objects>
-                <viewController id="ZV0-dF-zIl" customClass="ScoreViewController" customModule="MangaQuiz" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="ZV0-dF-zIl" customClass="ScoreViewController" customModule="MangaQuiz" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qfl-9I-6FE">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
