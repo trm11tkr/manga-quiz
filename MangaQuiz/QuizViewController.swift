@@ -14,6 +14,7 @@ class QuizViewController: UIViewController {
     @IBOutlet weak var answerButton2: UIButton!
     @IBOutlet weak var answerButton3: UIButton!
     @IBOutlet weak var answerButton4: UIButton!
+    @IBOutlet weak var judgeImageView: UIImageView!
     
     var csvArray: [String] = []
     var quizArray: [String] = []
@@ -46,6 +47,9 @@ class QuizViewController: UIViewController {
     @IBAction func btnAction(sender: UIButton) {
         if sender.tag == Int(quizArray[1]) {
             correctCount += 1
+            judgeImageView.image = UIImage(named: "correct")
+        } else {
+            judgeImageView.image = UIImage(named: "incorrect")
         }
         nextQuiz()
     }

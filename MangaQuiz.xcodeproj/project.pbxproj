@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7B320121284F2372000EE89C /* image in Resources */ = {isa = PBXBuildFile; fileRef = 7B320120284F2372000EE89C /* image */; };
+		7B320122284F26F1000EE89C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B7783CC284E372F0073879F /* Main.storyboard */; };
+		7B320128284F2837000EE89C /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B320126284F2837000EE89C /* correct.png */; };
+		7B320129284F2837000EE89C /* incorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B320127284F2837000EE89C /* incorrect.png */; };
 		7B7783C7284E372F0073879F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7783C6284E372F0073879F /* AppDelegate.swift */; };
 		7B7783C9284E372F0073879F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7783C8284E372F0073879F /* SceneDelegate.swift */; };
 		7B7783CB284E372F0073879F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7783CA284E372F0073879F /* ViewController.swift */; };
-		7B7783CE284E372F0073879F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B7783CC284E372F0073879F /* Main.storyboard */; };
 		7B7783D0284E37330073879F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B7783CF284E37330073879F /* Assets.xcassets */; };
 		7B7783D3284E37330073879F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B7783D1284E37330073879F /* LaunchScreen.storyboard */; };
 		7B7783DB284E3C4F0073879F /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7783DA284E3C4F0073879F /* QuizViewController.swift */; };
@@ -20,7 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7B320120284F2372000EE89C /* image */ = {isa = PBXFileReference; lastKnownFileType = folder; path = image; sourceTree = "<group>"; };
+		7B320126284F2837000EE89C /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
+		7B320127284F2837000EE89C /* incorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incorrect.png; sourceTree = "<group>"; };
 		7B7783C3284E372F0073879F /* MangaQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MangaQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B7783C6284E372F0073879F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B7783C8284E372F0073879F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +47,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B320125284F2837000EE89C /* image */ = {
+			isa = PBXGroup;
+			children = (
+				7B320126284F2837000EE89C /* correct.png */,
+				7B320127284F2837000EE89C /* incorrect.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
 		7B7783BA284E372E0073879F = {
 			isa = PBXGroup;
 			children = (
@@ -69,9 +80,9 @@
 				7B7783C8284E372F0073879F /* SceneDelegate.swift */,
 				7B7783CA284E372F0073879F /* ViewController.swift */,
 				7B7783CC284E372F0073879F /* Main.storyboard */,
-				7B320120284F2372000EE89C /* image */,
 				7B7783DC284E3CFD0073879F /* ScoreViewController.swift */,
 				7B7783DA284E3C4F0073879F /* QuizViewController.swift */,
+				7B320125284F2837000EE89C /* image */,
 				7B7783CF284E37330073879F /* Assets.xcassets */,
 				7B7783D1284E37330073879F /* LaunchScreen.storyboard */,
 				7B7783D4284E37330073879F /* Info.plist */,
@@ -137,10 +148,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B320128284F2837000EE89C /* correct.png in Resources */,
+				7B320129284F2837000EE89C /* incorrect.png in Resources */,
 				7B7783D3284E37330073879F /* LaunchScreen.storyboard in Resources */,
-				7B320121284F2372000EE89C /* image in Resources */,
+				7B320122284F26F1000EE89C /* Main.storyboard in Resources */,
 				7B7783D0284E37330073879F /* Assets.xcassets in Resources */,
-				7B7783CE284E372F0073879F /* Main.storyboard in Resources */,
 				7B7783DF284E40DF0073879F /* quiz.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

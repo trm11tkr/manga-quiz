@@ -108,6 +108,10 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xAQ-Ll-uaO">
+                                <rect key="frame" x="8" y="146" width="374" height="374"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xbX-Dx-cFr"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -135,6 +139,7 @@
                         <outlet property="answerButton2" destination="ZtA-51-a0P" id="zzD-n6-7O7"/>
                         <outlet property="answerButton3" destination="qGq-4N-J9k" id="ZVQ-3k-NwB"/>
                         <outlet property="answerButton4" destination="vc4-13-WhO" id="v0l-ab-Aw7"/>
+                        <outlet property="judgeImageView" destination="xAQ-Ll-uaO" id="th6-Lf-LJ7"/>
                         <outlet property="quizNumberLabel" destination="JVt-0d-Ll4" id="GwG-4B-jWC"/>
                         <outlet property="quizTextView" destination="Ve0-Oj-IZF" id="wNV-EG-7p2"/>
                         <segue destination="ZV0-dF-zIl" kind="presentation" identifier="toScoreVC" id="gec-3J-XxO"/>
